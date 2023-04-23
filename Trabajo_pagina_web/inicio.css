@@ -68,6 +68,16 @@ ul{
     margin-left: 20px;
 }
 
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    color: aliceblue;
+    z-index: 2;
+    font-size: 1.5 ;
+}
+
 hr{
     margin: 5px 0;
 }
@@ -232,6 +242,10 @@ hr{
     line-height: 3;
 }
 
+.nav_main ul.nav_menu {
+    margin-right: 40px;
+}
+
 .lugar{
     justify-content: center;
     align-items: center;
@@ -243,6 +257,31 @@ hr{
 }
 
 @media (max-width: 700px){
+    .nav_main ul.nav-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        padding: 30px;
+        opacity: .9;
+        transform: translateX(-400px);
+        transition: transform .5s ease-in-out;
+        
+    }
+
+    .nav_main ul.nav-menu.show {
+    transform: translateX(-20px);
+}
+
+    .nav_main ul.nav_menu li {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+
+
     .news-cards {
         grid-template-columns:(2, 1fr);
     }
@@ -251,10 +290,5 @@ hr{
     {
         width: 80%;
     }
-    .nav-menu{
-        width: 80%;
-    }
-    .nav_main{
-        width: 80%;
-    }
+    
 }
