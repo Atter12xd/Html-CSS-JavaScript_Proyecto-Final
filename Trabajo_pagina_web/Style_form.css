@@ -15,13 +15,13 @@ section{
     
     background-size: cover;
     background-position: center ;
-    animation: animateBg 10s linear infinite;
+    animation: animateBg 5s linear infinite;
 
 }
 
 @keyframes animateBg {
     100% {
-        filter: hue-rotate(150deg);
+        filter: hue-rotate(120deg);
     }
 }
 
