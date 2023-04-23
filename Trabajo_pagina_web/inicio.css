@@ -77,7 +77,7 @@ hr{
     height: 550px;
     color: rgb(201, 208, 214);
     background: url(Img/fondo-aterdacer.jpg) no-repeat center center/cover;
-    padding-bottom: 50px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,4 +240,21 @@ hr{
     font-size: 30px;
     margin-bottom: 50px;
     
+}
+
+@media (max-width: 700px){
+    .news-cards {
+        grid-template-columns:(2, 1fr);
+    }
+
+    .cards-banner-one .content
+    {
+        width: 80%;
+    }
+    .nav-menu{
+        width: 80%;
+    }
+    .nav_main{
+        width: 80%;
+    }
 }
