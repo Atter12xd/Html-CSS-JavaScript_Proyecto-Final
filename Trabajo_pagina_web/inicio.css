@@ -160,19 +160,20 @@ hr{
 
 .cards-banner-one {
     width: 100%;
-    height: 350px;
-    background: url(Img/fondo9.jpg) no-repeat center center/cover ;
-    margin-bottom: 40px;
-    color: rgb(162, 165, 162);
+    height: 100%;
+    background: url(Img/fondito2s.jpg) no-repeat center center/cover ;
+    margin-bottom: 35px;
+    color: rgb(150, 46, 132);
+    background-color: rgb(172, 48, 135);
 }
 
 .cards-banner-one .content {
-    width: 40%;
-    padding: 90px 0 0 30px;
+    width: 25%;
+    padding: 100px 0 0 30px;
 }
 
 .cards-banner-one h2 {
-    color: aliceblue;
+    color:rgb(182, 217, 248);
     
 }
 
