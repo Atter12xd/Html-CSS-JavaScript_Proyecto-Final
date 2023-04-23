@@ -193,3 +193,51 @@ hr{
     justify-content: center;
 }
 
+.links a {
+    margin: 0 50px;
+}
+
+.links a i {
+    font-size: 2.5rem;
+}
+
+/* FOOTER LINKS */
+
+.footer-links{
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color: rgb(40, 108, 168);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-container ul {
+    margin: 0;
+
+}
+
+.footer-container ul li {
+    line-height: 3;
+}
+
+.lugar{
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    
+}
