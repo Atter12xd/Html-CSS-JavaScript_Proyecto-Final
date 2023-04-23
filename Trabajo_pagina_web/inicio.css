@@ -76,6 +76,7 @@ ul{
     color: aliceblue;
     z-index: 2;
     font-size: 1.5 ;
+    display: none;
 }
 
 hr{
@@ -107,6 +108,7 @@ hr{
     font-size: 15px;
     border: 1px solid #ffff;
     margin: 10px 0;
+    
 }
 
 .btn:hover {
@@ -257,6 +259,11 @@ hr{
 }
 
 @media (max-width: 700px){
+
+    .menu-btn {
+        display: block;
+    }
+
     .nav_main ul.nav-menu{
         display: block;
         position: absolute;
@@ -291,4 +298,24 @@ hr{
         width: 80%;
     }
     
+}
+
+@media (max-width: 500px){
+    .news-cards{
+        grid-template-columns: 1fr;
+    }
+
+    .news-cards img {
+        height: 270px;
+    }
+    iframe{
+        height: 200px;
+        width: 450px;
+        grid-template-columns: 1fr;
+
+    }
+    .cards-banner-one .content{
+        width: 100%;
+        padding: 60px 20px;
+    }
 }
